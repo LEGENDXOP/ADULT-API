@@ -38,8 +38,12 @@ To access the API and understand its endpoints, here's what you need:
 - `api`: Your OpenAI API key (opt for free, but premium works too)
 - `user_id`: A unique ID to keep track of each user's message history
 - `message`: Your query for the adult AI
-- `name`: (Optional) Your bot's name (or nickname) to personalize the AI's response
-- `context`: (Optional) A list of strings to provide additional context to the AI (I prefer to not use this)
+
+- `name`: (Optional) Your bot's name (or nickname) to personalize the AI's response.
+    - To set a specific name, use `name="Aditi"`.
+    - To remove the name, use `name="remove"`.
+    - The default name is `name="Sakshi"`.
+
 ---
 
 ### 📚 Example
