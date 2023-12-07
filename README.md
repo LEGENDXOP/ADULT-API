@@ -38,12 +38,16 @@ To access the API and understand its endpoints, here's what you need:
 - `api`: Your OpenAI API key (opt for free, but premium works too)
 - `user_id`: A unique ID to keep track of each user's message history
 - `message`: Your query for the adult AI
-
 - `name`: (Optional) Your bot's name (or nickname) to personalize the AI's response.
     - To set a specific name, use `name="Aditi"`.
     - To remove the name, use `name="remove"`.
     - The default name is `name="Sakshi"`.
-
+- `role`: (Optional) Your bot's role to personalize the AI's response.
+    - To set a specific role, use `role="stepmom"`.
+    - The default role is `role="wife"`.
+    - All roles are listed below
+    - `boyfriend(girls)`, `girlfriend(boys)`, `stepmom(boys)`, `stepdad(girls)`, `teacher(boys)`, `boss(girls)`, `brother(girls)`, `sister(boys)`, `bhabhi(boys)`
+- `context`: (Optional) no furthur details are available for this parameter rn do not use it
 ---
 
 ### 📚 Example
@@ -60,7 +64,9 @@ api = "https://adult-api-7a95944102ff.herokuapp.com/response"
 response = requests.post(api, json={
     "api_key": "sk-xxxxf",
     "user_id": "legendx",
-    "message": "Hello Baby How Are You..."
+    "message": "Hello Mam How Are You...",
+    "name": "Aditi",
+    "role": "teacher",
 })
 
 print(response.json())
@@ -71,7 +77,7 @@ print(response.json())
 ### 📝 Tips
 
 - To avoid conflicts, personalize your `user_id` by appending your name (e.g., `user_id=f"{yourname}-{userID}"`).
-
+- To avoid errors, make sure do not use context and role at the same time
 ---
 
 ### 💬 Feedback
