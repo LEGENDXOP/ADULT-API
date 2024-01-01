@@ -28,8 +28,8 @@ As of now, this API is not open-source, but we are open to the idea of making it
 
 To access the API and understand its endpoints, here's what you need:
 
-- **Home Endpoint**: `https://adult-api-7a95944102ff.herokuapp.com`
-- **Main (AI) Endpoint**: `https://adult-api-7a95944102ff.herokuapp.com/response`
+- **Home Endpoint**: `https://adult-apix-58d4d31d4d9f.herokuapp.com`
+- **Main (AI) Endpoint**: `https://adult-apix-58d4d31d4d9f.herokuapp.com/response`
 
 ---
 
