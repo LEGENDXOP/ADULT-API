@@ -60,7 +60,7 @@ First install a module for making request i prefer u to use 'requests' module
 ```python
 import requests
 
-api = "https://adult-api-7a95944102ff.herokuapp.com/response"
+api = "https://adult-apix-58d4d31d4d9f.herokuapp.com/response"
 
 response = requests.post(api, json={
     "api_key": "sk-xxxxf",
