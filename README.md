@@ -48,7 +48,7 @@ To access the API and understand its endpoints, here's what you need:
     - All roles are listed below
     - `boyfriend(girls)`, `girlfriend(boys)`, `stepmom(boys)`, `stepdad(girls)`, `teacher(boys)`, `boss(girls)`, `brother(girls)`, `sister(boys)`, `bhabhi(boys)`
 - `context`: (Optional) no furthur details are available for this parameter rn do not use it
-- `language`: set the result language like English or something else...
+- `language`: (Optional) set the output language like English or something else...
 ---
 
 ### 📚 Example
