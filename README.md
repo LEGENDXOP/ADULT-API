@@ -67,8 +67,7 @@ response = requests.post(api, json={
     "user_id": "legendx",
     "message": "Hello Mam How Are You...",
     "name": "Aditi",
-    "role": "teacher",
-    "language": "english"
+    "role": "teacher"
 })
 
 print(response.json())
