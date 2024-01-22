@@ -28,7 +28,7 @@ As of now, this API is not open-source, but we are open to the idea of making it
 
 To access the API and understand its endpoints, here's what you need:
 
-- **Home Endpoint (GET REQ)**: `https://adult-apix-58d4d31d4d9f.herokuapp.com`
+- **Home (GET REQ) Endpoint**: `https://adult-apix-58d4d31d4d9f.herokuapp.com`
 - **Main (AI) (POST REQ) Endpoint**: `https://adult-apix-58d4d31d4d9f.herokuapp.com/response`
 
 ---
